@@ -15,25 +15,25 @@ const result = document.getElementById("result")
 const count = 0
 
 counterPlus5.addEventListener("click", () => {
-  count += 5
+  count + 5
   result.innerHTML = count
   document.getElementById('result').innerText = counterPlus5;
 })
 
 counterPlus1.addEventListener("click", () => {
-  count += 1
+  count + 1
   result.innerHTML = count
   document.getElementById('result').innerText = counterPlus1;
 })
 
 counterMinus5.addEventListener("click", () => {
-  count -= 1
+  count - 1
   result.innerHTML = count
   document.getElementById('result').innerText = counterMinus1;
 })
 
 counterMinus1.addEventListener("click", () => {
-  count -= 5
+  count - 5
   result.innerHTML = count
   document.getElementById('result').innerText = counterMinus5;
 })
